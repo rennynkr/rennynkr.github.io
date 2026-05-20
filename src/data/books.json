@@ -1,0 +1,161 @@
+[
+    {
+        "id": "mua",
+        "title": "Hai mươi năm mưa đêm trĩu hạt",
+        "author": "Thử Gian Liễu",
+        "genre": "Đam mỹ",
+        "cover": "/covers/mua.jpg",
+        "description": "##\n\n**Tag:** Mỹ cường, cứu rỗi, đôi bên yêu thầm, phá án\n\n**Công tử mù khiêm nhu công × Lãng tử kiếm khách vô pháp vô thiên đúng nghĩa thụ**\n\n&nbsp;\n\nLư Chiếu Thủy là một kẻ lãng tử \"khét tiếng gần xa\" trong miệng các môn phái danh chính trên giang hồ. Anh yêu rượu, anh yêu mỹ nhân.\n\nTình cờ, anh bị cuốn vào một âm mưu đen tối, bất ngờ quen biết được vị đệ nhất công tử ôn nhuận như ngọc - Lâm Trung Hạc.\n\nCái chết ly kì của nữ quản gia, vụ án mạng liên hoàn quái dị, tân lang bỗng dưng tự vẫn...\n\nTất cả, từng chuyện một, khiến hai người ngày càng tiến sâu vào màn sương mù, cũng ngày càng sa vào một mối tình vốn không nên có...\n\n&nbsp;\n\n## Lưu ý:\n\n1. Bối cảnh võ hiệp, không phải võ hiệp chính thống, không so sánh với bất kỳ tiểu thuyết võ hiệp nào.\n\n2. Lời lẽ mang tính nhục mạ, công kích sẽ bị xóa.\n\n3. Từ chối việc hạ thấp, so sánh với các tiểu thuyết khác.\n\n> Nhắc nhở: Tác giả thường xuyên chỉnh sửa, mọi tình tiết xin lấy bản chính thức trên nền tảng Trường Bội làm chuẩn.\n\n&nbsp;\n\n##",
+        "total": "134",
+        "chapters": [
+            {
+                "id": 1,
+                "title": "Chương 1 - Mưa rơi mấy hạt quen Trường Bạch"
+            },
+            {
+                "id": 2,
+                "title": "Chương 2 - Tá túc sơn trang nhớ Bạch Nương"
+            },
+            {
+                "id": 3,
+                "title": "Chương 3 - Hứng khởi hỏi chuyện chiếc khăn tay"
+            },
+            {
+                "id": 4,
+                "title": "Chương 4 - Khéo trêu Tiểu Độc ý răn ngầm"
+            },
+            {
+                "id": 5,
+                "title": "Chương 5 - Xem thí hội chợt nghe tin tử"
+            },
+            {
+                "id": 6,
+                "title": "Chương 6 - Gặp Thiết Tuyệt Tầm Lãng nghiệm thi"
+            },
+            {
+                "id": 7,
+                "title": "Chương 7 - Điều tra ắt phải gặp Sở thị"
+            },
+            {
+                "id": 8,
+                "title": "Chương 8 - Soát phòng phát hiện một mảnh giấy"
+            },
+            {
+                "id": 9,
+                "title": "Chương 9 - Phát hiện bất ngờ áo giấu độc"
+            },
+            {
+                "id": 10,
+                "title": "Chương 10 - Đinh Mão trúng độc mật thất hiện"
+            },
+            {
+                "id": 11,
+                "title": "Chương 11 - Vào mật thất gió sương mưa tuyết"
+            },
+            {
+                "id": 12,
+                "title": "Chương 12 - Cùng đường mạt lộ suýt mất mạng"
+            },
+            {
+                "id": 13,
+                "title": "Chương 13 - Giải câu đố vội vã cứu người (1)"
+            },
+            {
+                "id": 14,
+                "title": "Chương 14 - Giải câu đố chân tướng xuất hiện (2)"
+            },
+            {
+                "id": 15,
+                "title": "Chương 15 - Kịch hạ màn Tầm Lãng viết chữ"
+            },
+            {
+                "id": 16,
+                "title": "Chương 16 - Tặng đùi gà đêm gặp Thiết Tuyệt"
+            },
+            {
+                "id": 17,
+                "title": "Chương 17 - Tiệc đã tàn Tầm Lãng rời đi"
+            },
+            {
+                "id": 18,
+                "title": "Chương 18 - Gặp cô cô suýt phải ăn đòn"
+            },
+            {
+                "id": 19,
+                "title": "Chương 19 - Viếng sư phụ gặp lại Trường Bạch"
+            },
+            {
+                "id": 20,
+                "title": "Chương 20 - Giả làm sai vặt gặp lại nhau"
+            },
+            {
+                "id": 21,
+                "title": "Chương 21 - Gặp Trường Bạch nhớ về quá khứ"
+            },
+            {
+                "id": 22,
+                "title": "Chương 22 - Dắt Trường Bạch vòng quanh Xuân Sam"
+            },
+            {
+                "id": 23,
+                "title": "Chương 23 - Ở chung phòng giải bày tâm sự"
+            },
+            {
+                "id": 24,
+                "title": "Chương 24 - Tìm khách trạm chạm mặt Tiểu Độc"
+            },
+            {
+                "id": 25,
+                "title": "Chương 25 - Vai kề vai đêm này khó ngủ"
+            },
+            {
+                "id": 26,
+                "title": "Chương 26 - Có án mạng tình nghi Tiểu Độc"
+            },
+            {
+                "id": 27,
+                "title": "Chương 27 - Lộ thân phận rửa oan cho Nhàn"
+            },
+            {
+                "id": 28,
+                "title": "Chương 28 - Vụ sát hại phụ nữ liên hoàn"
+            },
+            {
+                "id": 29,
+                "title": "Chương 29 - Giúp giải vây gặp bé Phúc Khang"
+            },
+            {
+                "id": 30,
+                "title": "Chương 30 - Thân phận giả nghe được chuyện lạ"
+            },
+            {
+                "id": 31,
+                "title": "Chương 31 - Mắng huyện lệnh đêm về thám thính"
+            },
+            {
+                "id": 32,
+                "title": "Chương 32 - Níu Tiểu Độc hoa mắt nhìn nhầm"
+            },
+            {
+                "id": 33,
+                "title": "Chương 33 - Ngoại sam đỏ trong án có án"
+            },
+            {
+                "id": 34,
+                "title": "Chương 34 - Đi bái phật xuất hiện bước ngoặt"
+            },
+            {
+                "id": 35,
+                "title": "Chương 35 - Manh mối mới gặp được phương trượng"
+            },
+            {
+                "id": 36,
+                "title": "Chương 36 - Lễ cầu siêu xác định điểm chung"
+            },
+            {
+                "id": 37,
+                "title": "Chương 37 - Chùa khả nghi gặp dịp Thất Tịch"
+            }
+        ]
+    }
+]
