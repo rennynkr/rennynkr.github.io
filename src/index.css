@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
 @theme {
   /* --- Phông chữ (fontFamily) --- */
   --font-serif: "Playfair Display", "Georgia", serif;
