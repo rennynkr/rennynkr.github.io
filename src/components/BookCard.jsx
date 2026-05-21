@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import ReactMarkdown from 'react-markdown'
 function StarRating({ rating = 0 }) {
   return (
     <span className="text-bark-600 text-xs font-sans tracking-wide">
@@ -32,10 +32,10 @@ export default function BookCard({ book }) {
 
       {/* Info (JSON-only) */}
       <div className="flex flex-col flex-1">
-        <p className="font-serif text-xl text-ink-900 font-bold">
-          {book.title}
+        <p className="font-serif text-xl text-center text-ink-900 font-semibold">
+          <ReactMarkdown>{book.title}</ReactMarkdown>
         </p>
-        <p className="text-bark-400 text-sm font-sans mt-1">
+        <p className="text-bark-400 text-md text-center font-sans mt-1">
           Tiến độ: {book.chapters?.length || 0} / {book.total} chương
         </p>
       </div>

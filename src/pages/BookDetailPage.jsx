@@ -2,8 +2,8 @@ import { useParams, Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import booksData from '../data/books.json'
 import ReactMarkdown from 'react-markdown'
-
-
+import CollapseBox from '../components/SpoilerToggle'
+import TableOfContents from '../components/TableOfContents'
 export default function BookDetailPage() {
   const { id } = useParams()
 
@@ -69,7 +69,7 @@ export default function BookDetailPage() {
       <div className="flex flex-col md:flex-row gap-12 lg:gap-20 items-center">
 
         {/* Cover */}
-        <div className="w-[240px]">
+        <div className="w-[300px]">
           <div
             className="aspect-[2/3]"
             style={{
@@ -79,8 +79,9 @@ export default function BookDetailPage() {
             }}
           />
           <br />
-          <h1 className="text-center font-serif text-2xl text-ink-800 leading-tight mb-2">
-            {book.title}
+          <h1 className="text-center font-serif text-2xl text-ink-800 font-semibold leading-tight mb-2">
+            <ReactMarkdown>{book.title}</ReactMarkdown>
+
           </h1>
 
           <p className="text-center text-bark-600 font-sans mb-4">
@@ -90,7 +91,7 @@ export default function BookDetailPage() {
 
         {/* Info */}
         <div className="w-full md:max-w-md lg:max-w-lg">
-          <div className="prose prose-neutral max-w-none mt-6">
+          <div className="prose prose-neutral max-w-none mt-6 text-lg text-bark-600 text-justify ">
             <p className="text-center text-bark-800 font-serif mb-4 font-semibold text-3xl tracking-wide">
               GIỚI THIỆU:
             </p>
@@ -103,9 +104,9 @@ export default function BookDetailPage() {
           <div className="flex items-center gap-6 mt-6">
 
             <div>
-              <p className="text-bark-400 text-xs">Số chương</p>
+              <p className="text-bark-400 text-xs">Tiến độ</p>
               <p className="font-serif text-lg text-ink-900">
-                {book.chapters?.length || 0}
+                {book.chapters?.length || 0} / {book.total}
               </p>
             </div>
 
@@ -123,9 +124,19 @@ export default function BookDetailPage() {
         </div>
 
       </div>
+      <br></br><br></br>
+      {book.review?.trim() && (<div>
+        <CollapseBox title="Lời đào hố viên">
+          <div className="prose prose-neutral max-w-none prose-p:leading-7 space-y-4">
+            <ReactMarkdown>{book.review}</ReactMarkdown>
+          </div>
+        </CollapseBox></div>
+      )}
 
-
-
+      <TableOfContents
+        chapters={book.chapters}
+        bookId={book.id}
+      />
 
     </main>
   )

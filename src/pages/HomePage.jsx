@@ -67,7 +67,7 @@ export default function HomePage() {
 
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
-          <h2 className="font-serif text-2xl text-ink-900">Tất cả sách</h2>
+          <h2 className="font-serif text-2xl text-ink-900">Chợ trời</h2>
         </div>
 
         {/* Filter */}

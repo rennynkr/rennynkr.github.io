@@ -23,17 +23,6 @@ export default function FilterBar({ genres = [], query, setQuery, genre, setGenr
           onChange={e => setQuery(e.target.value)}
           className="border border-cream-200 rounded-full px-5 py-2 text-sm font-sans text-ink-900 placeholder-bark-400 focus:outline-none focus:border-bark-400 bg-cream-50 w-44"
         />
-        <select
-          value={sortBy}
-          onChange={e => setSortBy(e.target.value)}
-          className="border border-cream-200 rounded-full px-4 py-2 text-xs font-sans text-bark-600 bg-cream-50 focus:outline-none focus:border-bark-400 cursor-pointer"
-        >
-          <option value="default">Mặc định</option>
-          <option value="rating">Đánh giá cao nhất</option>
-          <option value="price-asc">Giá: Thấp → Cao</option>
-          <option value="price-desc">Giá: Cao → Thấp</option>
-          <option value="title">Thứ tự ABC</option>
-        </select>
       </div>
     </div>
   )

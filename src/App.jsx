@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-
+import { CartProvider } from './context/CartContext'
+import { AuthProvider } from './context/AuthContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
